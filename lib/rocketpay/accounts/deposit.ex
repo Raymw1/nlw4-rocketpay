@@ -44,7 +44,6 @@ defmodule Rocketpay.Accounts.Deposit do
     |> repo.update()
   end
 
-
   defp run_transaction(multi) do
     case Repo.transaction(multi) do
       {:error, _operation, reason, _changes} -> {:error, reason}
