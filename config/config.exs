@@ -24,7 +24,7 @@ config :rocketpay, Rocketpay.Repo,
 
 config :rocketpay, :basic_auth,
   username: "banana",
-  password: "nanica"
+  password: "nanica123"
 
 # Configures Elixir's Logger
 config :logger, :console,
